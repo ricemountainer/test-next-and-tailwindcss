@@ -1,0 +1,11 @@
+import '../styles/globals.css';
+//import "tailwindcss/tailwind.css";
+import Layout from '../components/layout';
+
+export default function Test({Component , pageProps}){
+    return (
+        <Layout>
+            <Component {...pageProps} />
+        </Layout>
+    );
+}

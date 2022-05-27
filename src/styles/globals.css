@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply container place-content-center
+}
+main {
+  @apply m-auto w-screen text-lg 
+}
+.main-content {
+  @apply lg:w-6/12 md:w-full m-auto items-end  flex-grow
+}
